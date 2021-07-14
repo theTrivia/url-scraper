@@ -21,7 +21,8 @@ async function getDataFromWeb(){
         const x = scrapdata[i];
         const url = x.split('\n');
         let a = url[2]
-        geturls(a);
+        // geturls(a);
+        console.log(a);
 
     }
 });
